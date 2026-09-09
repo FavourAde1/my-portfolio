@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build and deployment output
+dist/
+.output/
+.vercel/
+.nitro/
+.tanstack/
+
+# Generated assets
+artifacts/
+attachments/
+screenshots/
+.vercel/
+.nitro/
+.tanstack/
+.output/
+
+# Local MongoDB data
+.mongodb/
+data/db/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
