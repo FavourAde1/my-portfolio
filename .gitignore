@@ -12,6 +12,7 @@ dist/
 .vercel/
 .nitro/
 .tanstack/
+.netlify/
 
 # Generated assets
 artifacts/
