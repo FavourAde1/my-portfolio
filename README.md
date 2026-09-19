@@ -24,6 +24,17 @@ The app runs on port 8080.
 npm run build
 ```
 
+## Render deployment
+
+Create a Render **Web Service** with these settings:
+
+```text
+Build Command: npm ci && npm run build
+Start Command: npm start
+```
+
+The service listens on Render's `PORT` automatically. No environment variables are required for the current portfolio.
+
 ## Notes
 
 This repository contains the portfolio source and excludes local generated artifacts.
